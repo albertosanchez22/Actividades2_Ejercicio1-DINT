@@ -1,0 +1,17 @@
+﻿<Window x:Class="Ejercicio1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ejercicio1"
+        mc:Ignorable="d"
+        Title="Adivina el Numero" Height="450" Width="800" Icon="128.ico">
+    <Grid>
+        <TextBox x:Name="TextNumero" HorizontalAlignment="Right" Height="32" Margin="0,0,438,205" TextWrapping="Wrap" Text="" VerticalAlignment="Bottom" Width="210" TextChanged="TextBox_TextChanged"/>
+        <Button x:Name="Boton" Click="ComprobarBoton" Content="Comprobar" HorizontalAlignment="Left" Margin="539,0,0,205" VerticalAlignment="Bottom" Width="138" Height="32"/>
+        <TextBlock HorizontalAlignment="Center" Margin="144,92,115,0" TextWrapping="Wrap" Text="Escribe un numero de 0 al 100" VerticalAlignment="Top" Height="37" Width="533" FontFamily="Arial Black" FontSize="24" TextAlignment="Center"/>
+        <TextBox x:Name="MayorMenor" Height="32" Margin="387,0,0,205" TextWrapping="Wrap" Text="" VerticalAlignment="Bottom" TextChanged="TextBox_TextChanged_1" HorizontalAlignment="Left" Width="109"/>
+        <Button x:Name="BotonReiniciar" Click="ReiniciarBoton" Content="Reiniciar" HorizontalAlignment="Left" Margin="328,272,0,0" VerticalAlignment="Top" Width="154" Height="46"/>
+
+    </Grid>
+</Window>
