@@ -32,7 +32,7 @@ namespace Ejercicio1
 
         private void ComprobarBoton(object sender, RoutedEventArgs e)
         {
-            
+            //
             
             try
             {

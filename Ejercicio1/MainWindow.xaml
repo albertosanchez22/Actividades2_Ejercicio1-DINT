@@ -12,6 +12,6 @@
         <TextBlock HorizontalAlignment="Center" Margin="144,92,115,0" TextWrapping="Wrap" Text="Escribe un numero de 0 al 100" VerticalAlignment="Top" Height="37" Width="533" FontFamily="Arial Black" FontSize="24" TextAlignment="Center"/>
         <TextBox x:Name="MayorMenor" Height="32" Margin="387,0,0,205" TextWrapping="Wrap" Text="" VerticalAlignment="Bottom" TextChanged="TextBox_TextChanged_1" HorizontalAlignment="Left" Width="109"/>
         <Button x:Name="BotonReiniciar" Click="ReiniciarBoton" Content="Reiniciar" HorizontalAlignment="Left" Margin="328,272,0,0" VerticalAlignment="Top" Width="154" Height="46"/>
-
+  
     </Grid>
 </Window>
