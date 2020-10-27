@@ -26,7 +26,9 @@ namespace Ejercicio1
             InitializeComponent();
             
         }
-        //
+        /// <summary>
+        /// /
+        /// </summary>
        static Random rnd = new Random();
         int aleatorio = rnd.Next(0, 100);
 
